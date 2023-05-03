@@ -41,7 +41,7 @@
         left: 250px;
         right: 0;
         padding: 100px 20px 50px;
-        overflow-x: auto;
+        overflow-y: auto;
     }
 
     .side-bar, .main-center{
