@@ -4,9 +4,36 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* MAIN */
+    /* TOP BAR */
+        .top-bar > .row{
+            justify-content: flex-end;
+        }
+
+        .top-bar .col{
+            padding: 30px 15px;
+        }
+
+        .top-bar-content > a{
+            font-size: 15px;
+            border: 1px solid #fff;
+            padding: 15px 45px;
+            border-radius: 25px;
+        }
+    /* FINE TOP BAR */
+/* FINE MAIN */
+
 /* LAYOUT */
     .top-bar{
-        background-color: #00000094;
+        background-color: #080b12df;
         height: 80px;
         top: 0;
         left: 250px;
@@ -55,6 +82,20 @@
 /* FINE LAYOUT */
 
 /* UTILITIES */
+    .row{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    /* TEXT COLOR */
+        .txt-white{
+            color: #fff;
+        }
+    /* FINE TEXT COLOR */
+    /* FONT WEIGHT */
+        .bold{
+            font-weight: 700;
+        }
+    /* FINE FONT WEIGHT */
 /* FINE UTILITIES */
 
 /* LAYOUT RESPONSIVE (LARGE DEKSTOP FIRST) */
