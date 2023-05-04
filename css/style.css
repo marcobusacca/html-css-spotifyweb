@@ -19,7 +19,7 @@ a{
         }
 
         .top-bar .col{
-            padding: 30px 15px;
+            padding: 40px 15px;
         }
 
         .top-bar-content > a{
@@ -34,7 +34,6 @@ a{
 /* LAYOUT */
     .top-bar{
         background-color: #080b12df;
-        height: 80px;
         top: 0;
         left: 250px;
         z-index: 100;
@@ -42,13 +41,13 @@ a{
 
     .bottom-bar{
         background-color: #282828;
-        height: 100px;
         bottom: 0;
         left: 0;
         z-index: 200;
     }
 
     .top-bar, .bottom-bar{
+        height: 100px;
         position: fixed;
         right: 0;
     }
@@ -67,7 +66,7 @@ a{
         top: 0;
         left: 250px;
         right: 0;
-        padding: 100px 20px 50px;
+        padding: 120px 20px 50px;
         overflow-y: auto;
     }
 
