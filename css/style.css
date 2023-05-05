@@ -174,6 +174,10 @@ ul{
         }
 
         /* Album Recently Played */
+        .recently-played{
+            margin-bottom: 50px;
+        }
+
         .recently-played .col:first-child{
             width: 100%;
             margin-bottom: 30px;
@@ -192,33 +196,6 @@ ul{
             width: 100%;
         }
 
-        .recently-played-content .album-cover{
-            position: relative;
-        }
-
-        .album-cover img{
-            display: block;
-        }
-
-        .album-cover .layover{
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.813);
-            cursor: pointer;
-            display: none;
-        }
-
-        .album-cover .layover .btn-play{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 30px;
-        }
-
         .recently-played-content h3{
             font-size: 1.2em;
             padding: 20px 0 10px;
@@ -229,8 +206,89 @@ ul{
         }
         
         /* Album Created For You */
+        .created-for-you{
+            margin-bottom: 20px;
+        }
+        
+        .created-for-you .col:first-child{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .created-for-you .col{
+            width: calc(100% / 6 - 20px);
+            margin-right: 20px;
+        }
+
+        .created-for-you h2{
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .created-for-you-content *{
+            width: 100%;
+        }
+
+        .created-for-you-content h3{
+            font-size: 1.2em;
+            padding: 20px 0;
+        }
         
         /* Album Most Popular Artist */
+        .most-popular-artist .col:first-child{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .most-popular-artist .col{
+            width: calc(100% / 6 - 20px);
+            margin-right: 20px;
+        }
+
+        .most-popular-artist h2{
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .most-popular-artist-content *{
+            width: 100%;
+        }
+
+        .most-popular-artist-content h3{
+            font-size: 1.2em;
+            padding: 20px 0;
+        }
+
+        .artist-cover > img, .artist-cover .layover{
+            border-radius: 50%;
+        }
+        /* Album Cover */
+            .album-cover{
+                position: relative;
+            }
+
+            .album-cover img{
+                display: block;
+            }
+
+            .album-cover .layover{
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.813);
+                cursor: pointer;
+                display: none;
+            }
+
+            .album-cover .layover .btn-play{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 30px;
+            }
+        /* Fine Album Cover */
 
         /* Album Cover Hover */
             .album-cover:hover .layover{
