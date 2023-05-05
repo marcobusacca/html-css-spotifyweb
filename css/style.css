@@ -173,23 +173,24 @@ ul{
             padding-bottom: 5px;
         }
 
-        /* Album Recently Played */
-        .recently-played{
-            margin-bottom: 50px;
-        }
-
-        .recently-played .col:first-child{
+        /* Main Center Layout */
+        .main-center-layout .col:first-child{
             width: 100%;
             margin-bottom: 30px;
         }
 
-        .recently-played .col{
+        .main-center-layout .col{
             width: calc(100% / 6 - 20px);
             margin-right: 20px;
         }
 
-        .recently-played h2{
+        .main-center-layout h2{
             font-size: 2rem;
+        }
+
+        /* Album Recently Played */
+        .recently-played{
+            margin-bottom: 50px;
         }
 
         .recently-played-content *{
@@ -209,19 +210,8 @@ ul{
         .created-for-you{
             margin-bottom: 20px;
         }
-        
-        .created-for-you .col:first-child{
-            width: 100%;
-            margin-bottom: 30px;
-        }
-
-        .created-for-you .col{
-            width: calc(100% / 6 - 20px);
-            margin-right: 20px;
-        }
 
         .created-for-you h2{
-            font-size: 2rem;
             margin-bottom: 10px;
         }
 
@@ -235,18 +225,7 @@ ul{
         }
         
         /* Album Most Popular Artist */
-        .most-popular-artist .col:first-child{
-            width: 100%;
-            margin-bottom: 30px;
-        }
-
-        .most-popular-artist .col{
-            width: calc(100% / 6 - 20px);
-            margin-right: 20px;
-        }
-
         .most-popular-artist h2{
-            font-size: 2rem;
             margin-bottom: 10px;
         }
 
@@ -262,6 +241,7 @@ ul{
         .artist-cover > img, .artist-cover .layover{
             border-radius: 50%;
         }
+
         /* Album Cover */
             .album-cover{
                 position: relative;
