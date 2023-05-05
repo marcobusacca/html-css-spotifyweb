@@ -275,12 +275,6 @@ ul{
                 font-size: 30px;
             }
         /* Fine Album Cover */
-
-        /* Album Cover Hover */
-            .album-cover:hover .layover{
-                display: block;
-            }
-        /* Fine Album Cover Hover */
     /* FINE MAIN CENTER */
 /* FINE MAIN */
 
@@ -374,6 +368,17 @@ ul{
             top: 0;
             left: 0;
             border-radius: 25px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .live-timeline .live-timeline-circle{
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #fff;
+            display: none;
         }
     /* FINE BOTTOM BAR CENTER */
     
@@ -405,9 +410,113 @@ ul{
             top: 0;
             left: 0;
             border-radius: 25px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .volume-live-line .volume-live-line-circle{
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #fff;
+            display: none;
         }
     /* FINE BOTTOM BAR RIGHT */
 /* FINE FOOTER */
+
+/* HOVER EFFECT */
+    /* HEADER TOP BAR */
+        /* Top Bar Button */
+        .top-bar-content > a:hover{
+            font-size: 17px;
+            padding: 17px 47px;
+        }
+    /* FINE HEADER TOP BAR */
+
+    /* MAIN SIDE BAR */
+        /* Top Side Bar Menu */
+        .top-side-bar-menu ul li a:hover{
+            color: #fff;
+        }
+
+        /* Create Playlist */
+        .create-playlist:hover a:first-child{
+            background-color: white;
+        }
+
+        .create-playlist:hover a:last-child{
+            color: #fff;
+        }
+
+        /* Menu Playlist */
+        .menu-playlist ul li a:hover{
+            color: #fff;
+        }
+
+        /* Download App Button */
+        .download-app > a:last-child:hover{
+            color: #fff;
+        }
+    /* FINE MAIN SIDE BAR */
+
+    /* MAIN CENTER */
+        /* Main Center Section List */
+        .main-center > ul > li > a:hover{
+            color: #fff;
+        }
+
+        /* Album Cover */
+        .album-cover:hover .layover{
+            display: block;
+        }
+    /* FINE MAIN CENTER */
+
+    /* FOOTER BOTTOM BAR */
+        /* Album Details */
+        .album-text:hover{
+            text-decoration: underline;
+            color: #fff;
+        }
+
+        .album-text:hover a{
+            color: #fff;
+        }
+
+        /* Bottom Bar Icons */
+        .bottom-bar-icons a:hover{
+            color: #fff;
+        }
+
+        /* Timeline Buttons */
+        .timeline-buttons i.fa-circle-play:hover{
+            font-size: 43px;
+        }
+
+        /* Timeline Counter */
+        .full-timeline:hover{
+            cursor: pointer;
+        }
+
+        .full-timeline:hover .live-timeline{
+            background-color: lime;
+        }
+
+        .full-timeline:hover .live-timeline-circle{
+            display: block;
+        }
+
+        /* Volume Line */
+        .volume-full-line:hover .volume-live-line{
+            background-color: lime;
+        }
+
+        .volume-full-line:hover .volume-live-line-circle{
+            display: block;
+        }
+    /* FINE FOOTER BOTTOM BAR */
+/* FINE HOVER EFFECT */
 
 /* UTILITIES */
     .row{
