@@ -747,10 +747,12 @@ ul{
         /* FINE SIDE BAR */
 
         /* FOOTER BOTTOM BAR */
+            /* Album Details */
             .album-details span:last-child{
                 display: block;
             }
 
+            /* Timeline Buttons */
             .timeline-buttons *{
                 font-size: 20px;
             }
@@ -771,6 +773,11 @@ ul{
                 font-size: 30px;
             }
 
+            .timeline-buttons i.fa-circle-play:hover{
+                font-size: 35px;
+            }
+
+            /* Timeline Counter */
             .timeline-counter .full-timeline{
                 position: relative;
                 width: 50%;
@@ -779,8 +786,13 @@ ul{
                 border-radius: 25px;
             }
 
+            /* Volume Line */
             .bottom-bar-right .volume-full-line{
                 width: 50px;
+            }
+
+            .volume-full-line .volume-live-line{
+                width: 40%;
             }
         /* FINE FOOTER BOTTOM BAR */
     }
