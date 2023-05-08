@@ -359,6 +359,7 @@ ul{
             height: 5px;
             margin: 0 15px;
             border-radius: 25px;
+            cursor: pointer;
         }
 
         .timeline-counter .live-timeline{
@@ -401,6 +402,7 @@ ul{
             width: 100px;
             height: 5px;
             border-radius: 25px;
+            cursor: pointer;
         }
 
         .bottom-bar-right .volume-live-line{
@@ -413,7 +415,6 @@ ul{
             display: flex;
             justify-content: flex-end;
             align-items: center;
-            cursor: pointer;
         }
 
         .volume-live-line .volume-live-line-circle{
