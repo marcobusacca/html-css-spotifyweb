@@ -496,10 +496,6 @@ ul{
         }
 
         /* Timeline Counter */
-        .full-timeline:hover{
-            cursor: pointer;
-        }
-
         .full-timeline:hover .live-timeline{
             background-color: lime;
         }
